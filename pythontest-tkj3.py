@@ -1,0 +1,32 @@
+#Layang Layang
+d1 = int(input("masukkan nilai d1"))
+d2 = int(input("masukkan nilai d2"))
+luas_ll = 1/2 * d1 * d2
+print("luas layang layang adalah",luas_ll)
+
+# persegi panjang
+panjang = int(input("masukkan nilai panjang"))
+lebar = int(input("masukkan nilai lebar"))
+luas_pp = panjang * lebar
+print("luas persegi panjang adalah", luas_pp)
+
+# jajar genjang
+alas = int(input("masukkan nilai alas"))
+tinggi = int(input("masukkan nilai tinggi"))
+luas_jg = alas * tinggi
+print("luas jajar genjang adalah", luas_jg)
+
+# Lingkaran
+r = int(input("masukkan nilai r"))
+phi = 22/7
+luas_l = phi * r * r
+print("luas lingkaran adalah", luas_l)
+
+# Segitiga
+alas = int(input("masukkan nilai alas"))
+tinggi = int(input("masukkan nilai tinggi"))
+luas_s = 1/2 * alas * tinggi
+print("luas segitiga adalah", luas_s)
+
+
+
